@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.1f6db19f.css",
-    "main.js": "/portafolio/static/js/main.68f958d7.js",
+    "main.js": "/portafolio/static/js/main.d2f6ecf8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portafolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/fifityHealth.png": "/portafolio/static/media/fifityHealth.64940badd156abb94aa4.png",
     "static/media/sloan.png": "/portafolio/static/media/sloan.26731ee4851d98e1bcb6.png",
@@ -10,17 +10,18 @@
     "static/media/almondCow.png": "/portafolio/static/media/almondCow.ef23a71d1050dfcc0d42.png",
     "static/media/home-main.svg": "/portafolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/portafolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/mks.png": "/portafolio/static/media/mks.fb045230eb5abdbe73d1.png",
     "static/media/CV-Portafolio.pdf": "/portafolio/static/media/CV-Portafolio.dc93cdcb1118b9065690.pdf",
     "static/media/na.png": "/portafolio/static/media/na.8f29441e9033ffa024c2.png",
     "static/media/home-bg.jpg": "/portafolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/portafolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portafolio/index.html",
     "main.1f6db19f.css.map": "/portafolio/static/css/main.1f6db19f.css.map",
-    "main.68f958d7.js.map": "/portafolio/static/js/main.68f958d7.js.map",
+    "main.d2f6ecf8.js.map": "/portafolio/static/js/main.d2f6ecf8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portafolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f6db19f.css",
-    "static/js/main.68f958d7.js"
+    "static/js/main.d2f6ecf8.js"
   ]
 }
