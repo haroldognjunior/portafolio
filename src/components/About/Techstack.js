@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   DiDjango,
+  DiDocker,
   DiJavascript1,
   DiMongodb,
   DiNodejs,
@@ -47,6 +48,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGraphql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
