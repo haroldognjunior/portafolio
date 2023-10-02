@@ -4,6 +4,7 @@ import almondCow from "../../Assets/Projects/almondCow.png";
 import fifityHealth from "../../Assets/Projects/fifityHealth.png";
 import mks from "../../Assets/Projects/mks.png";
 import na from "../../Assets/Projects/na.png";
+import pulpo from "../../Assets/Projects/pulpo.png";
 import rumah from "../../Assets/Projects/rumah.png";
 import sloan from "../../Assets/Projects/sloan.png";
 import theseus from "../../Assets/Projects/theseus_.png";
@@ -30,7 +31,16 @@ function Projects() {
               demoLink="https://theseus-313315.web.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pulpo}
+              isBlog={false}
+              title="Pulpo"
+              description="Vehicles management. You can get reports, import and export datas about vehicles, manage maintenances, expenses, insights, etc, everything in the cloud. Developed using Angular, Nest.js and AWS."
+              ghLink=""
+              demoLink="https://www.getpulpo.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={almondCow}
@@ -78,7 +88,7 @@ function Projects() {
               imgPath={mks}
               isBlog={false}
               title="MKS"
-              description="API integration with frontend, add to cart the product and you can see the amount on the cart. Developed using React and Firebase."
+              description="API integration with frontend, add to cart the product and you can see the amount on the cart. Developed using React, Next and Firebase."
               ghLink="https://github.com/haroldognjunior/mks-frontend-challenge"
               demoLink=""
             />
