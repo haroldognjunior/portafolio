@@ -12,7 +12,7 @@ function AboutCard() {
             from <span className="purple"> Brazil, but I'm living in Mexico City since 2021.</span>
             <br /> I studied Programming in Buenos Aires, Argentina.
             <br />
-            Additionally, I studied FullStack Developer with specializacion in React.js/Redux.
+            Additionally, I studied FullStack Developer with specialization in React.js/Redux.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -23,6 +23,9 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <ImPointRight /> Listening Music
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Singing
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
