@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.1f6db19f.css",
-    "main.js": "/portafolio/static/js/main.58bafa9a.js",
+    "main.js": "/portafolio/static/js/main.15213786.js",
     "static/js/787.1ed0c42c.chunk.js": "/portafolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/fifityHealth.png": "/portafolio/static/media/fifityHealth.64940badd156abb94aa4.png",
     "static/media/sloan.png": "/portafolio/static/media/sloan.26731ee4851d98e1bcb6.png",
@@ -18,11 +18,11 @@
     "static/media/pre.svg": "/portafolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portafolio/index.html",
     "main.1f6db19f.css.map": "/portafolio/static/css/main.1f6db19f.css.map",
-    "main.58bafa9a.js.map": "/portafolio/static/js/main.58bafa9a.js.map",
+    "main.15213786.js.map": "/portafolio/static/js/main.15213786.js.map",
     "787.1ed0c42c.chunk.js.map": "/portafolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f6db19f.css",
-    "static/js/main.58bafa9a.js"
+    "static/js/main.15213786.js"
   ]
 }
