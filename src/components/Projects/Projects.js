@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import almondCow from "../../Assets/Projects/almondCow.png";
+import chat from "../../Assets/Projects/chat.png";
 import fifityHealth from "../../Assets/Projects/fifityHealth.png";
 import mks from "../../Assets/Projects/mks.png";
 import na from "../../Assets/Projects/na.png";
@@ -33,10 +34,10 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={na}
+              imgPath={chat}
               isBlog={false}
               title="Chat"
-              description="If you open the demo in two window, you can talk throw live chat. Developed using React and socket.io."
+              description="If you open the demo in two windows, you can talk through live chat. Developed using React and socket.io."
               ghLink="https://github.com/haroldognjunior/chat-reactjs"
               demoLink="https://65212ecfac0ed7626650cecc--whimsical-otter-e94a6d.netlify.app/"
             />
