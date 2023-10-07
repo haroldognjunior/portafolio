@@ -33,6 +33,16 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={na}
+              isBlog={false}
+              title="Chat"
+              description="If you open the demo in two window, you can talk throw live chat. Developed using React and socket.io."
+              ghLink="https://github.com/haroldognjunior/chat-reactjs"
+              demoLink="https://65212ecfac0ed7626650cecc--whimsical-otter-e94a6d.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={pulpo}
               isBlog={false}
               title="Pulpo"
