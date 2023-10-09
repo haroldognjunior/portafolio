@@ -4,6 +4,7 @@ import almondCow from "../../Assets/Projects/almondCow.png";
 import chat from "../../Assets/Projects/chat.png";
 import fifityHealth from "../../Assets/Projects/fifityHealth.png";
 import mks from "../../Assets/Projects/mks.png";
+import movie from "../../Assets/Projects/movie.png";
 import na from "../../Assets/Projects/na.png";
 import pulpo from "../../Assets/Projects/pulpo.png";
 import rumah from "../../Assets/Projects/rumah.png";
@@ -40,6 +41,16 @@ function Projects() {
               description="If you open the demo in two windows, you can talk through live chat. Developed using React and socket.io."
               ghLink="https://github.com/haroldognjunior/chat-reactjs"
               demoLink="https://65212ecfac0ed7626650cecc--whimsical-otter-e94a6d.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={movie}
+              isBlog={false}
+              title="Search Movie"
+              description="You can search and find and see the movie details. Developed using React and NodeJS."
+              ghLink="https://github.com/haroldognjunior/search-movie"
+              demoLink="https://magenta-hummingbird-5f57b3.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
