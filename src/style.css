@@ -1,17 +1,25 @@
+/* ========== THEME: change these to switch palette ========== */
+/* To try teal/cyan: replace the 4 lines below with the commented block at the end of this file. */
 html {
+  --accent: #c770f0;
+  --accent-dim: #a855f7;
+  --accent-glow: rgba(199, 112, 240, 0.5);
   --section-background-color: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.582),
     rgba(12, 8, 24, 0.904)
   );
-
   --image-gradient: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.678),
     rgba(12, 10, 22, 0.863)
   );
-
-  --imp-text-color: #c770f0;
+  --imp-text-color: var(--accent);
+  --navbar-bg: #1b1a2ea9;
+  --footer-bg: rgb(10, 4, 22);
+  --scrollbar-track: #2d1950;
+  --scrollbar-thumb: rgba(178, 121, 216, 0.959);
+  --scrollbar-thumb-hover: rgba(222, 130, 235, 0.911);
 }
 
 .purple {
@@ -57,18 +65,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: var(--scrollbar-track);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: var(--scrollbar-thumb);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: var(--scrollbar-thumb-hover);
   border-radius: 12px;
 }
 
@@ -76,7 +84,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: var(--navbar-bg) !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -97,7 +105,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: var(--accent) !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -371,7 +379,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: var(--accent-dim);
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -379,13 +387,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px var(--accent);
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: var(--accent-dim);
+  box-shadow: 0 0 5px var(--accent);
+  text-shadow: 0 0 2px var(--accent);
 }
 
 .social-icons {
@@ -395,14 +403,14 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: var(--accent-dim) !important;
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: var(--footer-bg);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -470,7 +478,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px var(--accent-glow) !important;
 }
 
 .blog-card {
@@ -616,6 +624,13 @@ button:focus {
   justify-content: center;
 }
 
+.resume-page {
+  margin-bottom: 1.5rem;
+}
+.resume-page:last-child {
+  margin-bottom: 0;
+}
+
 .resume-left {
   padding-right: 80px !important;
 }
@@ -682,7 +697,7 @@ button:focus {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #8a49a8;
+  border: 2px solid var(--accent-dim);
 }
 
 .like-item {
@@ -741,3 +756,10 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* ========== ALTERNATIVE THEME (teal/cyan): copy these into the html {} block at the top to switch ========== */
+/* --accent: #14b8a6; */
+/* --accent-dim: #0d9488; */
+/* --accent-glow: rgba(20, 184, 166, 0.5); */
+/* --scrollbar-thumb: rgba(20, 184, 166, 0.8); */
+/* --scrollbar-thumb-hover: rgba(45, 212, 191, 0.9); */
