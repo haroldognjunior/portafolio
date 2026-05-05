@@ -9,8 +9,18 @@ import rumah from "../Assets/Projects/rumah.png";
 import sloan from "../Assets/Projects/sloan.png";
 import theseus from "../Assets/Projects/theseus_.png";
 import check from "../Assets/Projects/check.png";
+import iahealth from "../Assets/Projects/ia.png";
 
 const projects = [
+  {
+    imgPath: iahealth,
+    isBlog: false,
+    title: "AI Health Assistant",
+    description:
+      "An AI-powered app that analyzes patient data in a health insurance plan, offering clear insights on coverage and helping users find specialists with personalized, human-like responses.",
+    ghLink: "https://github.com/haroldognjunior/dado-back",
+    demoLink: "https://dadoteca-frontend.onrender.com/",
+  },
   {
     imgPath: check,
     isBlog: false,
